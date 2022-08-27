@@ -1,5 +1,5 @@
 import { Resolver, Query } from '@nestjs/graphql';
-import { Category } from './models/categories/category.model';
+import { Category } from './models/category.model';
 
 @Resolver()
 export class CategoriesResolver {
