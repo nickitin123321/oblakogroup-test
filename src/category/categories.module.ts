@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { CategoriesResolver } from './category.resolver';
+import { CategoriesResolver } from './categories.resolver';
 
 @Module({
   providers: [CategoriesResolver],
